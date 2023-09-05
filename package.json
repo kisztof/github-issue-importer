@@ -1,0 +1,37 @@
+{
+  "name": "github-issue-importer",
+  "version": "1.0.0",
+  "description": "A script to import GitHub issues from a CSV file",
+  "main": "dist/import.js",
+  "scripts": {
+    "run-dev": "node src/import.js",
+    "run-prod": "yarn build && node dist/import.js",
+    "build": "babel src -d dist"
+  },
+  "bin": {
+    "github-issue-importer": "./dist/import.js"
+  },
+  "author": "Krzysztof Słomka <krzysztof@slomka.pro",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "issues",
+    "importer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kisztof/github-issue-importer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kisztof/github-issue-importer/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.15",
+    "@babel/preset-env": "^7.22.15"
+  }
+}

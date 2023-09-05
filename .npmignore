@@ -1,0 +1,20 @@
+# Logs
+*.log
+
+# Directories
+node_modules/
+__tests__/
+coverage/
+
+# Build
+dist/
+
+# Environment files
+.env
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
