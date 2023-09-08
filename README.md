@@ -60,7 +60,7 @@ github-issue-importer [path/to/your/csvfile.csv]
 1. Run the script:
 
     ```bash
-    node index.js [path/to/your/csvfile.csv]
+    node dist/import.js [path/to/your/csvfile.csv]
     ```
 
     If you don't provide a path, it will default to using ```tasks.csv```.
