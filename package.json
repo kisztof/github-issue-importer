@@ -1,5 +1,5 @@
 {
-  "name": "github-issue-importer",
+  "name": "github-issues-importer",
   "version": "1.0.0",
   "description": "A script to import GitHub issues from a CSV file",
   "main": "dist/import.js",

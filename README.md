@@ -1,4 +1,4 @@
-# GitHub Issue Importer
+# GitHub Issues Importer
 
 ## Description
 
@@ -18,13 +18,13 @@ This Node.js script allows you to import GitHub issues from a CSV file into a sp
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/kisztof/github-issue-importer.git
+    git clone https://github.com/kisztof/github-issues-importer.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd github-issue-importer
+    cd github-issues-importer
     ```
 
 3. Install the required packages:
@@ -38,7 +38,7 @@ This Node.js script allows you to import GitHub issues from a CSV file into a sp
 This package is also available on npm. You can install it using the following command:
 
 ```bash
-yarn add github-issue-importer
+yarn add github-issues-importer
 ```
 
 #### Global Installation
@@ -46,13 +46,13 @@ yarn add github-issue-importer
 To install the package globally, allowing you to run it from any directory, use:
 
 ```bash
-yarn global add github-issue-importer
+yarn global add github-issues-importer
 ```
 
 After installing globally, you can run the script from any directory by simply typing:
 
 ```bash
-github-issue-importer [path/to/your/csvfile.csv]
+github-issues-importer [path/to/your/csvfile.csv]
 ```
 
 ## Usage
